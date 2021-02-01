@@ -1,6 +1,6 @@
 vendor = {
     0x0000: "OPPO         ",
-    0x0001: "Foxconn/Sony ",
+    0x0001: "Sony          ",
     0x0004: "ZTE          ",
     0x0011: "Smartisan    ",
     0x0015: "Huawei       ",
@@ -9,7 +9,7 @@ vendor = {
     0x0029: "Asus         ",
     0x0030: "Haier        ",
     0x0031: "LG           ",
-    0x0035: "Foxconn/Nokia",
+    0x0035: "Nokia        ",
     0x0042: "Alcatel      ",
     0x0045: "Nokia        ",
     0x0048: "YuLong       ",
@@ -32,7 +32,7 @@ vendor = {
     0x1043: "Asus         ",
     0x1111: "Asus         ",
     0x143A: "Asus         ",
-    0x1978: "Blackphone   ",
+    0x1978: "Qualcomm     ",
     0x2A70: "Oxygen       "
 }
 
@@ -609,7 +609,7 @@ secureboottbl = {
     "SDM429": 0x000a01d0,
     "SDM439": 0x000a01d0,
     "SDM450": 0x000a01d0,
-	"SDM410": 0x7F00E10,
+    "SDM410": 0x7F00E10,
     "SDM630": 0x00780350,
     "SDM632": 0x000a01d0,
     "SDA632": 0x000a01d0,
