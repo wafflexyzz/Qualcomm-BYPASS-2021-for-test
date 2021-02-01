@@ -1,9 +1,0 @@
-Buka CMD Run
-python-QCNEW
-python -m pip install pyusb pyserial json5
-
-Buka Dulu libusb install
-Install python
-Lalu setelah selai semuanya,
-Test driver dulu 
-Ambil saja Firehousnya 
