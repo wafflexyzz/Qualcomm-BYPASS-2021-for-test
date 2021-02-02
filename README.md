@@ -12,5 +12,5 @@ connecting https://www.facebook.com/Chernobyllll
 
 Get python >= 3.7 64-Bit
 
-#credit
+Credits
 @Chernobyllll
