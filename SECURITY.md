@@ -11,7 +11,7 @@ currently being supported with security updates.
 | 11.0  | :white_check_mark: |
 | 10.0  | :white_check_mark: |
 | 9.0  | :white_check_mark: |
-| 6.0  | :white_check_mark: |
+| 6.0.x | :white_check_mark: |
 | 5.0.x   | :x:                |
 | 4.0.x   | :x:
 | < 4.0   | :x:                |
