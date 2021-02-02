@@ -15,7 +15,7 @@ currently being supported with security updates.
 | 5.0.x   | :x:                |
 | 4.0.x   | :x:
 | < 4.0   | :x:                |
-(CodePath Alumni and Staff)
+(Tables)
 ## Reporting a Vulnerability
 
 Use this section to tell people how to report a vulnerability.
