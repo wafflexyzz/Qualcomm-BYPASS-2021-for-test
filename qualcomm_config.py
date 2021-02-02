@@ -689,7 +689,7 @@ index 7be48c1bec96..b5b9b13d8d29 100644	index a52a9bf13b75..8807e59a1162 100644
 +							     SCM_HAS_IFACE_CLK |	+	HSPHY_INIT_CFG(0x80, 0x44, 0),
 +							     SCM_HAS_BUS_CLK) },	+	HSPHY_INIT_CFG(0x81, 0x38, 0),
  	{ .compatible = "qcom,scm-msm8660", .data = (void *) SCM_HAS_CORE_CLK },	+	HSPHY_INIT_CFG(0x82, 0x24, 0),
- 	{ .compatible = "qcom,scm-msm8960", .data = (void *) SCM_HAS_CORE_CLK },	+	HSPHY_INIT_CFG(0x83, 0x13, 0),
+    { .compatible = "qcom,scm-msm8960", .data = (void *) SCM_HAS_CORE_CLK },	+	HSPHY_INIT_CFG(0x83, 0x13, 0),
     { .compatible = "qcom,scm-msm8916", .data = (void *) SCM_HAS_CORE_CLK },	+	HSPHY_INIT_CFG(0x83, 0x23, 0),
  	{ .compatible = "qcom,scm-msm8916", .data = (void *)(SCM_HAS_CORE_CLK |
 }
