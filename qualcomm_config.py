@@ -663,6 +663,7 @@ secureboottbl = {
     # "MSM8212":
     # "MSM8926": [[], [], []],
     # "MSM8928": [[], [], []],
+    # "MSM8916": [[], [], []],
     diff --git a/Documentation/devicetree/bindings/firmware/qcom,scm.txt b/Documentation/devicetree/bindings/firmware/qcom,scm.txt	diff --git a/Documentation/devicetree/bindings/phy/qcom,usb-hs-28nm.yaml b/Documentation/devicetree/bindings/phy/qcom,usb-hs-28nm.yaml
 index 78456437df5f..df8379356021 100644	index ca6a0836b53c..abcc4373f39e 100644
 --- a/Documentation/devicetree/bindings/firmware/qcom,scm.txt	--- a/Documentation/devicetree/bindings/phy/qcom,usb-hs-28nm.yaml
@@ -673,6 +674,7 @@ index 78456437df5f..df8379356021 100644	index ca6a0836b53c..abcc4373f39e 100644
   * "qcom,scm-ipq8074"	       - qcom,usb-hs-28nm-femtophy
 + * "qcom,scm-mdm9607"	+      - qcom,usb-hs-28nm-mdm9607
   * "qcom,scm-msm8660"	
+  * "qcom,scm-msm8916"
   * "qcom,scm-msm8916"	   reg:
   * "qcom,scm-msm8960"	     maxItems: 1
 diff --git a/drivers/firmware/qcom_scm.c b/drivers/firmware/qcom_scm.c	diff --git a/drivers/phy/qualcomm/phy-qcom-usb-hs-28nm.c b/drivers/phy/qualcomm/phy-qcom-usb-hs-28nm.c
@@ -688,5 +690,6 @@ index 7be48c1bec96..b5b9b13d8d29 100644	index a52a9bf13b75..8807e59a1162 100644
 +							     SCM_HAS_BUS_CLK) },	+	HSPHY_INIT_CFG(0x81, 0x38, 0),
  	{ .compatible = "qcom,scm-msm8660", .data = (void *) SCM_HAS_CORE_CLK },	+	HSPHY_INIT_CFG(0x82, 0x24, 0),
  	{ .compatible = "qcom,scm-msm8960", .data = (void *) SCM_HAS_CORE_CLK },	+	HSPHY_INIT_CFG(0x83, 0x13, 0),
+    { .compatible = "qcom,scm-msm8916", .data = (void *) SCM_HAS_CORE_CLK },	+	HSPHY_INIT_CFG(0x83, 0x23, 0),
  	{ .compatible = "qcom,scm-msm8916", .data = (void *)(SCM_HAS_CORE_CLK |
 }
