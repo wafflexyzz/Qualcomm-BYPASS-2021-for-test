@@ -7,7 +7,7 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| android | :ChernobyL: |
+| android | ChernobyL|
 | 11.0  | :white_check_mark: |
 | 10.0  | :white_check_mark: |
 | 9.0  | :white_check_mark: |
